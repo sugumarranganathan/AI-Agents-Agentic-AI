@@ -1,0 +1,11 @@
+Three major LLM (Large Language Model) options
+
+| LLM Model  | Description                                                                                                                | API Type                             | Advantages                                                                                   | Limitations                                                           | Best Use Cases                                                     |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **OpenAI** | A cloud-based family of LLMs (such as GPT models) developed by OpenAI. Access is typically through an API.                 | Paid API                             | High-quality reasoning, coding, content generation, large ecosystem, reliable performance    | API usage costs money and requires internet access                    | Enterprise AI, coding assistants, chatbots, business automation    |
+| **Gemini** | Google's family of multimodal LLMs that can understand text, images, audio, and more. Offers both free and paid API tiers. | Limited Free API + Paid API          | Good multimodal capabilities, Google ecosystem integration, free tier available for learning | Free tier has usage limits; advanced features may require payment     | AI learning, chatbots, document analysis, image understanding      |
+| **Llama**  | Open-weight LLM family released by Meta. Can be downloaded and run locally or self-hosted.                                 | Local Installation (No API Required) | No API charges, full control over data, customizable, works offline after setup              | Requires powerful hardware and technical setup; you manage deployment | Private AI systems, on-premises applications, research, offline AI |
+
+
+======
+
