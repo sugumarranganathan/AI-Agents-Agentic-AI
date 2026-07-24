@@ -9,6 +9,11 @@
 
 ===========
 
+AI Agent focuses on completing one specific task.
+Agentic AI focuses on achieving an entire goal by planning, coordinating, and executing multiple tasks autonomously.
+
+============
+
 | Feature                    | AI Agent                                                        | Agentic AI                                                                                       |
 | -------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | **Definition**             | An AI system that performs a specific task based on user input. | An autonomous AI system that plans, reasons, and completes complex goals through multiple steps. |
