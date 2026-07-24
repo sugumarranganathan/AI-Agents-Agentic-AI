@@ -1,0 +1,107 @@
+AI Agent = Intelligent assistant (answers and performs a specific task)
+Agentic AI = Intelligent employee (plans, decides, uses tools, and completes an entire workflow with minimal supervision)
+
+This progression is how many production AI applications are built today: first create a reliable AI Agent, 
+then extend it into an Agentic AI system as the application's complexity grows.
+
+==========
+
+
+
+| If your application...                   | Use          | Reason                                          |
+| ---------------------------------------- | ------------ | ----------------------------------------------- |
+| Answers questions                        | ✅ AI Agent   | Simple question-answering is sufficient.        |
+| Searches a database                      | ✅ AI Agent   | Retrieves and presents information.             |
+| Uses RAG to answer from PDFs             | ✅ AI Agent   | One retrieval step followed by a response.      |
+| Uses one or two APIs                     | ✅ AI Agent   | Limited tool usage.                             |
+| Needs to plan multiple steps             | ✅ Agentic AI | Can create and execute plans.                   |
+| Uses multiple tools automatically        | ✅ Agentic AI | Coordinates tools without user intervention.    |
+| Makes decisions autonomously             | ✅ Agentic AI | Chooses the next action based on results.       |
+| Automates an end-to-end business process | ✅ Agentic AI | Handles complex workflows from start to finish. |
+
+
+============
+
+| Project                                                            | Recommended  |
+| ------------------------------------------------------------------ | ------------ |
+| PDF Chatbot                                                        | ✅ AI Agent   |
+| Restaurant Ordering Chatbot                                        | ✅ AI Agent   |
+| Watch Shop Chatbot                                                 | ✅ AI Agent   |
+| Bus Information Chatbot                                            | ✅ AI Agent   |
+| Bus Ticket Booking with Payment, Notifications, and Seat Selection | ✅ Agentic AI |
+
+
+=========
+
+Example: Your Bus Project
+AI Agent
+User:
+Show AC Sleeper buses from Chennai to Madurai.
+
+↓
+
+AI searches CSV/database
+
+↓
+
+Returns bus list
+
+This is an AI Agent because it performs a single task.
+
+=========
+
+Agentic AI
+User:
+Book the best AC Sleeper bus to Madurai tomorrow.
+
+↓
+
+Search buses
+
+↓
+
+Compare fares
+
+↓
+
+Check seat availability
+
+↓
+
+Recommend best option
+
+↓
+
+Book ticket
+
+↓
+
+Process payment
+
+↓
+
+Send WhatsApp confirmation
+
+↓
+
+Store booking history
+
+This is Agentic AI because it plans and completes multiple tasks to achieve the user's goal.
+
+=======
+
+
+| Stage  | Learn                        |
+| ------ | ---------------------------- |
+| Step 1 | Python                       |
+| Step 2 | LLMs (OpenAI, Gemini, Llama) |
+| Step 3 | Prompt Engineering           |
+| Step 4 | RAG                          |
+| Step 5 | AI Agents                    |
+| Step 6 | Agentic AI                   |
+| Step 7 | Multi-Agent Systems          |
+
+
+========
+
+
