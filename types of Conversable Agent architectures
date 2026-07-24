@@ -1,0 +1,13 @@
+types of Conversable Agent architectures
+----------------------------------------
+
+| Type                | Description                                                                                                                      | Workflow                             | Example                                     |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------- |
+| **Two Agents**      | Two AI agents collaborate to complete a task. One agent communicates with the user, while the other performs a specialized task. | Agent 1 ↔ Agent 2                    | Customer Support Agent + Database Agent     |
+| **Two Agent + RAG** | Two agents work together, with one using RAG (Retrieval-Augmented Generation) to retrieve knowledge from documents or databases. | User → Agent → RAG → Response        | PDF Question Answering, Bus Schedule Search |
+| **Multi-Agent**     | Multiple specialized AI agents collaborate to solve complex problems.                                                            | Planner → Search → Analysis → Report | Travel Planner, Software Development Team   |
+
+========
+
+
+
