@@ -88,3 +88,18 @@ Agent1 Agent2 Agent3
    Worker1 Worker2 Worker3
 
 ===============
+
+
+| Stage | Agent                                                   |
+| ----- | ------------------------------------------------------- |
+| 1     | Conversation Agent receives the user's request.         |
+| 2     | Search Agent finds matching buses from the database.    |
+| 3     | Recommendation Agent compares fares and ratings.        |
+| 4     | Booking Agent reserves the seat.                        |
+| 5     | Payment Agent processes payment.                        |
+| 6     | Notification Agent sends the ticket via Email/WhatsApp. |
+
+
+==========
+
+
