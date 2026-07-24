@@ -1,0 +1,66 @@
+| AI Agent                  | Agentic AI                                  |
+| ------------------------- | ------------------------------------------- |
+| Performs a specific task. | Achieves a complete goal.                   |
+| Limited autonomy.         | Highly autonomous.                          |
+| Single-step execution.    | Multi-step planning and execution.          |
+| Uses predefined tools.    | Chooses and orchestrates multiple tools.    |
+| Best for task automation. | Best for end-to-end intelligent automation. |
+
+
+===========
+
+| Feature                    | AI Agent                                                        | Agentic AI                                                                                       |
+| -------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Definition**             | An AI system that performs a specific task based on user input. | An autonomous AI system that plans, reasons, and completes complex goals through multiple steps. |
+| **Primary Goal**           | Execute a single task.                                          | Achieve an overall objective by coordinating multiple tasks.                                     |
+| **Autonomy**               | Low to Medium                                                   | High                                                                                             |
+| **Decision Making**        | Follows predefined rules or simple reasoning.                   | Makes dynamic decisions based on context and outcomes.                                           |
+| **Planning**               | Usually handles one step at a time.                             | Creates and executes multi-step plans.                                                           |
+| **Reasoning**              | Limited reasoning.                                              | Advanced reasoning with continuous evaluation.                                                   |
+| **Memory**                 | May use short-term memory.                                      | Uses both short-term and long-term memory to maintain context.                                   |
+| **Tool Usage**             | Uses predefined tools when instructed.                          | Selects and combines multiple tools autonomously.                                                |
+| **Adaptability**           | Limited adaptation to changes.                                  | Continuously adapts its plan based on new information.                                           |
+| **Learning from Feedback** | Minimal or optional.                                            | Frequently evaluates results and refines actions.                                                |
+| **Human Intervention**     | Often requires user guidance.                                   | Requires minimal human intervention after receiving the goal.                                    |
+| **Workflow**               | Input → Process → Output                                        | Goal → Plan → Execute → Evaluate → Improve → Complete                                            |
+| **Task Complexity**        | Simple or well-defined tasks.                                   | Complex, long-running, multi-step tasks.                                                         |
+| **Execution Style**        | Reactive (responds to requests).                                | Proactive (plans and acts toward a goal).                                                        |
+| **Error Handling**         | Stops when an error occurs or asks the user.                    | Detects errors, retries, or changes strategy automatically.                                      |
+| **Examples**               | FAQ chatbot, bus search assistant, weather bot, document Q&A.   | Travel planner, autonomous coding assistant, research assistant, business automation agent.      |
+| **Typical Technologies**   | LLM + API + Database                                            | LLM + Memory + Planning + Multiple Tools + Workflow Orchestration                                |
+| **Real-World Example**     | "Show buses from Chennai to Madurai."                           | "Plan my trip to Madurai, compare buses, book tickets, and send confirmation."                   |
+| **Advantages**             | Easy to build, fast, efficient for specific tasks.              | Handles complex workflows, reduces manual effort, improves automation.                           |
+| **Limitations**            | Limited autonomy and planning capabilities.                     | More complex to build, test, and maintain.                                                       |
+
+
+=========
+
+| Domain                   | AI Agent Example                                 | Agentic AI Example                                                                                                    |
+| ------------------------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| **Customer Support**     | Answers customer FAQs.                           | Resolves issues, creates support tickets, tracks status, and follows up automatically.                                |
+| **Bus Booking**          | Shows buses from Chennai to Madurai.             | Searches buses, compares fares, books tickets, processes payment, and sends confirmation.                             |
+| **Travel Planning**      | Provides flight or hotel information.            | Plans the entire trip, books flights and hotels, creates an itinerary, and sends reminders.                           |
+| **Restaurant Ordering**  | Displays menu and takes food orders.             | Recommends meals, places the order, processes payment, tracks delivery, and collects feedback.                        |
+| **Shopping**             | Suggests products based on a search query.       | Compares prices, applies coupons, places the order, and tracks delivery status.                                       |
+| **Healthcare**           | Answers health-related questions.                | Schedules appointments, reminds patients about medication, tracks progress, and shares reports with doctors.          |
+| **Education**            | Explains a concept or solves a problem.          | Creates a personalized study plan, tracks learning progress, conducts quizzes, and recommends resources.              |
+| **Banking**              | Checks account balance or transaction history.   | Analyzes spending, creates budgets, detects fraud, pays bills, and provides financial advice.                         |
+| **Human Resources (HR)** | Answers employee policy questions.               | Screens resumes, schedules interviews, coordinates onboarding, and tracks employee progress.                          |
+| **Email Management**     | Drafts or summarizes emails.                     | Prioritizes emails, drafts replies, schedules meetings, and follows up automatically.                                 |
+| **Software Development** | Generates code for a requested function.         | Plans features, writes code, tests it, fixes bugs, documents changes, and deploys the application.                    |
+| **Research**             | Retrieves information from documents or the web. | Collects information from multiple sources, analyzes findings, writes a report, and updates it when new data appears. |
+| **Business Analytics**   | Generates reports from existing data.            | Collects data, analyzes trends, forecasts outcomes, creates dashboards, and recommends actions.                       |
+| **Marketing**            | Creates a social media post.                     | Plans a campaign, generates content, schedules posts, monitors performance, and optimizes strategy.                   |
+| **Smart Home**           | Turns lights on or off based on commands.        | Learns user routines, adjusts lighting and temperature, manages security, and optimizes energy usage.                 |
+
+
+============
+
+| AI Agent                                                         | Agentic AI                                                                                                                                  |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **User:** "Show buses to Madurai." → Returns available buses.    | **User:** "Plan my Madurai trip." → Finds buses, compares options, books tickets, sends confirmations, and manages the journey.             |
+| **User:** "Summarize this PDF." → Generates a summary.           | **User:** "Research this topic." → Finds sources, summarizes them, creates a report, and updates it when new information becomes available. |
+| **User:** "Generate Python code." → Produces the requested code. | **User:** "Build a chatbot." → Designs the architecture, writes the code, tests it, fixes errors, and prepares it for deployment.           |
+
+
+============
