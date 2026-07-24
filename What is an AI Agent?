@@ -1,0 +1,74 @@
+An AI Agent is software that can:
+
+Observe its environment
+Understand a user's request
+Decide what action to take
+Execute that action
+Return the result
+
+It works toward a specific objective.
+
+AI Agent Workflow
+User
+   │
+   ▼
+Receive Request
+   │
+   ▼
+Reason
+   │
+   ▼
+Take Action
+   │
+   ▼
+Return Result
+
+=====
+
+Example
+
+User:
+
+Show buses from Chennai to Madurai under ₹1000.
+
+The AI Agent:
+
+Understands the request
+Searches the bus database
+Filters fare < ₹1000
+Returns matching buses
+
+This is exactly how your Tamil Nadu Private Omni Bus AI Chatbot works.
+
+======
+
+Components of an AI Agent
+
+An AI Agent typically consists of:
+
++--------------------+
+| User Input         |
++--------------------+
+          │
+          ▼
++--------------------+
+| LLM (Gemini/GPT)   |
++--------------------+
+          │
+          ▼
++--------------------+
+| Memory             |
++--------------------+
+          │
+          ▼
++--------------------+
+| Tools              |
+| Search             |
+| Database           |
+| API                |
++--------------------+
+          │
+          ▼
++--------------------+
+| Response           |
++--------------------+
