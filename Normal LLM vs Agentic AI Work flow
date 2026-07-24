@@ -1,0 +1,52 @@
+Workflow Comparison
+--------------------
+
+Normal LLM
+-----------
+
+User Prompt
+      │
+      ▼
+LLM
+      │
+      ▼
+Single Response
+
+========
+
+Agentic AI
+User Goal
+      │
+      ▼
+Planning
+      │
+      ▼
+Reasoning
+      │
+      ▼
+Use Tools (API / RAG / Database)
+      │
+      ▼
+Execute Tasks
+      │
+      ▼
+Evaluate Results
+      │
+      ▼
+Final Outcome
+
+=====
+
+| Normal LLM                                   | Agentic AI                                                      |
+| -------------------------------------------- | --------------------------------------------------------------- |
+| Answers questions.                           | Achieves goals.                                                 |
+| Generates content.                           | Plans and executes tasks.                                       |
+| Single-step interaction.                     | Multi-step workflow.                                            |
+| Limited autonomy.                            | Highly autonomous.                                              |
+| Best for information and content generation. | Best for intelligent automation and end-to-end task completion. |
+
+
+==========
+
+
+
