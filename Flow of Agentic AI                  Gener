@@ -1,0 +1,78 @@
+Flow of Agentic AI
+==================
+
+                 Generative AI (Gen AI)
+                         │
+                         ▼
+              Large Language Model (LLM)
+                         │
+      ┌──────────────────┼──────────────────┐
+      │                  │                  │
+   OpenAI             Gemini             Llama
+                         │
+                         ▼
+      Procedure-Based / Application-Based AI
+                         │
+        ┌───────────────┼───────────────┐
+        │               │               │
+       RAG         Agentic AI      LangChain
+
+=========
+
+Explanation of Each Component
+
+| Component                                | Description                                                                                                        |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Gen AI**                               | Artificial Intelligence that generates text, images, code, audio, and more.                                        |
+| **LLM (Large Language Model)**           | The core model that understands and generates natural language.                                                    |
+| **OpenAI / Gemini / Llama**              | Different LLM providers/models used to build AI applications.                                                      |
+| **Procedure-Based / Application-Based**  | Applications built on top of LLMs to solve real-world problems using predefined workflows and tools.               |
+| **RAG (Retrieval-Augmented Generation)** | Enhances LLM responses by retrieving information from external documents or databases before generating an answer. |
+| **Agentic AI**                           | Autonomous AI that plans, reasons, uses tools, and performs multiple steps to achieve a goal.                      |
+| **LangChain**                            | A framework used to build LLM-powered applications by connecting prompts, memory, tools, APIs, and workflows.      |
+
+
+==============
+
+Relationship Between Them
+
+| Technology     | Purpose                                                                    |
+| -------------- | -------------------------------------------------------------------------- |
+| **LLM**        | The intelligence (brain).                                                  |
+| **RAG**        | Gives the LLM access to external knowledge.                                |
+| **LangChain**  | Helps developers build AI applications and agent workflows.                |
+| **Agentic AI** | Uses LLMs, RAG, memory, and tools together to complete tasks autonomously. |
+
+
+===========
+
+| Technology     | Example                                                                                                                                |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **LLM**        | Answers: "Which bus goes from Chennai to Madurai?"                                                                                     |
+| **RAG**        | Retrieves the latest bus schedules from your CSV/database before answering.                                                            |
+| **LangChain**  | Connects the LLM with the bus database, memory, and APIs.                                                                              |
+| **Agentic AI** | Searches buses, compares fares, checks seat availability, books the ticket, processes payment, and sends a confirmation automatically. |
+
+
+===========
+
+Generative AI → Creates content.
+LLM → Provides language understanding and generation.
+RAG → Supplies up-to-date external knowledge to the LLM.
+LangChain → Framework for building LLM-based applications and workflows.
+Agentic AI → Builds on LLMs (often with RAG and frameworks like LangChain) to autonomously plan, reason, use tools, and complete complex goals.
+
+============
+
+Gen AI
+   │
+   ▼
+LLM (OpenAI / Gemini / Llama)
+   │
+   ▼
+Applications
+   ├── RAG → Better knowledge
+   ├── LangChain → Workflow framework
+   └── Agentic AI → Autonomous decision-making and task execution
+
+=========
