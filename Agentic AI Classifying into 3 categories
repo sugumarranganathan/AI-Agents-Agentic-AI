@@ -1,0 +1,59 @@
+| Type                                  | Description                                                                                                                                             | Example                                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **1. Conversable Agent**              | An AI agent that primarily communicates with users through natural language. It answers questions, provides information, and assists in conversations.  | ChatGPT, Gemini, AI Customer Support Bot                                           |
+| **2. Customized Agent**               | An AI agent built for a specific business domain, using custom data, workflows, APIs, or company rules.                                                 | Bus Booking Agent, Hospital Appointment Agent, Banking AI Assistant                |
+| **3. Conversable + Customized Agent** | An AI agent that combines natural conversation with domain-specific knowledge and business actions. It can chat, reason, use tools, and complete tasks. | AI Travel Assistant, AI Restaurant Ordering System, AI Bus Ticket Booking Platform |
+
+
+============
+
+Comparison Table
+----------------
+
+| Feature               | Conversable Agent  | Customized Agent      | Conversable + Customized Agent  |
+| --------------------- | ------------------ | --------------------- | ------------------------------- |
+| Natural Language Chat | ✅                  | Limited               | ✅                               |
+| Domain Knowledge      | General            | Specific              | Specific                        |
+| Uses Business Data    | ❌                  | ✅                     | ✅                               |
+| Uses APIs & Tools     | Optional           | ✅                     | ✅                               |
+| Task Automation       | Basic              | Medium                | Advanced                        |
+| User Interaction      | High               | Medium                | High                            |
+| Best For              | General assistance | Business applications | Intelligent business assistants |
+
+
+============
+
+Examples
+1. Conversable Agent
+
+User: "What is AI?"
+
+Agent:
+
+AI (Artificial Intelligence) is the simulation of human intelligence by machines.
+
+2. Customized Agent
+
+User: "Show buses from Chennai to Madurai."
+
+Agent:
+
+Searches your bus database
+Filters available buses
+Returns schedules and fares
+3. Conversable + Customized Agent
+
+User: "Book the best AC Sleeper bus from Chennai to Madurai for tomorrow under ₹1200."
+
+Agent:
+
+Understands the request through conversation
+Searches the bus database
+Compares fares and ratings
+Checks seat availability
+Books the ticket
+Sends confirmation via email or WhatsApp
+
+=========
+
+
