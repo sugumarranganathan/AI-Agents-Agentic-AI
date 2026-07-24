@@ -1,0 +1,25 @@
+| Scenario                   | Normal LLM                                   | Agentic AI                                                                                               |
+| -------------------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **1. Python Coding**       | Writes a Python program to reverse a string. | Writes the code, tests it, fixes errors, explains it, and saves the file if required.                    |
+| **2. Bus Booking**         | Lists buses from Chennai to Madurai.         | Searches buses, compares fares, checks seat availability, books the ticket, and sends confirmation.      |
+| **3. Travel Planning**     | Suggests tourist places in Ooty.             | Plans the itinerary, books hotels and transport, estimates costs, and creates a travel schedule.         |
+| **4. Document Analysis**   | Summarizes a PDF.                            | Reads multiple documents, extracts important information, compares them, and prepares a detailed report. |
+| **5. Restaurant Ordering** | Recommends food items from the menu.         | Suggests dishes based on preferences, places the order, processes payment, and tracks delivery.          |
+
+==========
+
+| Feature        | Normal LLM                                                 | Agentic AI                                                                 |
+| -------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Definition** | Generates responses based on the user's prompt.            | Plans, reasons, uses tools, and executes multiple steps to achieve a goal. |
+| **Role**       | Responds to questions.                                     | Acts as an intelligent assistant that completes tasks.                     |
+| **Planning**   | No planning.                                               | Breaks goals into multiple steps and executes them.                        |
+| **Memory**     | Limited conversation memory.                               | Uses memory to maintain context and improve decisions.                     |
+| **Tool Usage** | Usually no external tools unless integrated.               | Uses APIs, databases, RAG, search engines, calculators, and other tools.   |
+| **Autonomy**   | Low                                                        | High                                                                       |
+| **Workflow**   | Prompt → Response                                          | Goal → Plan → Tool → Execute → Evaluate → Result                           |
+| **Best For**   | Question answering, content generation, coding assistance. | Business automation, research, booking systems, workflow management.       |
+
+
+========
+
+
