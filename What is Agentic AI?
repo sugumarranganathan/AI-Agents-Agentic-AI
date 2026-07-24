@@ -1,0 +1,68 @@
+What is Agentic AI?
+
+Agentic AI is the next evolution of AI agents.
+
+Instead of simply answering one question, it can:
+
+Set goals
+Break goals into tasks
+Plan multiple steps
+Use different tools
+Evaluate results
+Correct mistakes
+Continue until the goal is achieved
+
+It behaves more like an autonomous digital worker.
+
+===
+
+Agentic AI Workflow
+Goal
+
+ ↓
+
+Plan
+
+ ↓
+
+Choose Tool
+
+ ↓
+
+Execute
+
+ ↓
+
+Evaluate
+
+ ↓
+
+Need another step?
+
+Yes → Repeat
+
+No → Finish
+
+======
+Example
+
+User:
+
+I want to travel from Chennai to Madurai tomorrow with a sleeper bus under ₹1200.
+
+An Agentic AI could:
+
+Search buses
+Compare fares
+Check available seats
+Recommend the best option
+Suggest boarding points
+Explain cancellation policies
+Complete the booking (if integrated)
+Send the ticket by email or WhatsApp
+
+This involves planning, multiple tools, and adapting based on results.
+
+=======
+
+
