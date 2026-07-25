@@ -1,0 +1,188 @@
+coordination patterns (how agents communicate), but there are several others commonly used in Agentic AI frameworks 
+like AutoGen, CrewAI, LangGraph, and Microsoft Agent Framework.
+
+
+Here's a complete overview.
+
+| Pattern                       | Description                                                                      | Best Use Case                   |
+| ----------------------------- | -------------------------------------------------------------------------------- | ------------------------------- |
+| **Sequential**                | Agents execute one after another in a fixed order.                               | Data processing, workflows      |
+| **Parallel**                  | Multiple agents work simultaneously and their results are combined.              | Search, analysis, summarization |
+| **Group Chat**                | Multiple agents communicate together in a shared conversation.                   | Brainstorming, discussions      |
+| **Hierarchical**              | A manager/supervisor agent assigns work to worker agents.                        | Enterprise workflows            |
+| **Round Robin**               | Each agent takes turns speaking in sequence.                                     | Reviews, brainstorming          |
+| **Router (Intent-Based)**     | A router agent decides which specialist agent should handle the request.         | Customer support, help desks    |
+| **Planner–Executor**          | One agent creates a plan, another executes it.                                   | Task automation                 |
+| **Planner–Executor–Reviewer** | Planner creates a plan, executor performs it, reviewer validates it.             | Coding, document writing        |
+| **Critic Pattern**            | One agent performs the task, another critiques and improves the output.          | Writing, code review            |
+| **Debate Pattern**            | Multiple agents argue different viewpoints before reaching a conclusion.         | Decision making, research       |
+| **Reflection Pattern**        | The same or another agent reviews and improves its own answer.                   | Higher-quality reasoning        |
+| **Human-in-the-Loop**         | A human approves or edits before continuing.                                     | Medical, legal, finance         |
+| **Event-Driven**              | Agents respond when specific events occur.                                       | Monitoring, alerts              |
+| **Swarm**                     | Many agents work independently toward the same goal without a strict hierarchy.  | Large-scale distributed tasks   |
+| **Blackboard**                | Agents share information through a common workspace instead of talking directly. | Complex collaborative systems   |
+
+
+===========
+
+1. Sequential
+User
+   │
+   ▼
+Agent A
+   │
+   ▼
+Agent B
+   │
+   ▼
+Agent C
+
+Example:
+
+Planner → Research → Writer
+2. Parallel
+             User
+               │
+      ┌────────┼────────┐
+      ▼        ▼        ▼
+  Flight   Hotel   Weather
+      └────────┼────────┘
+               ▼
+          Final Answer
+
+All agents work at the same time.
+
+3. Group Chat
+Planner ↔ Researcher ↔ Reviewer ↔ Manager
+
+Everyone participates in the same conversation.
+
+4. Hierarchical
+             Manager
+          /     |      \
+         ▼      ▼       ▼
+     Agent1  Agent2  Agent3
+
+The manager decides who does what.
+
+=======
+
+5. Router
+User
+  │
+  ▼
+Router
+ ├── Billing Agent
+ ├── Travel Agent
+ ├── Hotel Agent
+ └── Support Agent
+
+The router chooses the correct specialist.
+
+6. Planner–Executor
+Planner
+   │
+   ▼
+Executor
+
+Planner decides the steps.
+
+Executor performs them.
+
+7. Planner–Executor–Reviewer
+Planner
+   │
+   ▼
+Executor
+   │
+   ▼
+Reviewer
+
+Very common in coding assistants.
+
+8. Critic Pattern
+Writer
+   │
+   ▼
+Critic
+   │
+   ▼
+Improved Answer
+9. Debate Pattern
+Agent A
+
+⇅
+
+Agent B
+
+⇅
+
+Judge
+
+Common in research and reasoning.
+
+========
+
+10. Reflection
+Answer
+
+↓
+
+Self Review
+
+↓
+
+Improved Answer
+
+The AI improves its own work.
+
+11. Human-in-the-Loop
+AI
+
+↓
+
+Human Approval
+
+↓
+
+Continue
+
+Used when a human must verify important decisions.
+
+========
+
+12. Event-Driven
+New Email
+
+↓
+
+Email Agent
+
+↓
+
+Summarize
+
+↓
+
+Notify User
+13. Swarm
+      Agent1
+         \
+Agent2 ---- Goal ---- Agent3
+         /
+      Agent4
+
+Many agents collaborate without a central manager.
+
+========
+
+14. Blackboard
+          Shared Blackboard
+         /       |        \
+    Agent1   Agent2   Agent3
+
+Agents communicate indirectly by reading from and writing to shared information.
+
+=========
+
+
