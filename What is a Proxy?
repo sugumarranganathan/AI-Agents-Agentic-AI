@@ -1,0 +1,202 @@
+What is a Proxy?
+
+In general, a proxy means someone or something that acts on behalf of another.
+
+Think of it as a middleman.
+
+Instead of talking directly to someone, you talk to the proxy, and the proxy communicates for you.
+
+Real-Life Example
+
+Imagine you want to meet your school principal.
+
+You don't usually go directly to the principal.
+
+Instead:
+
+You
+   │
+   ▼
+Receptionist (Proxy)
+   │
+   ▼
+Principal
+
+The receptionist acts as a proxy.
+
+=====
+
+
+In AI
+
+A User Proxy is an AI component that acts on behalf of the user.
+
+Instead of the user directly interacting with every agent, the User Proxy receives the user's request and coordinates with other agents.
+
+Example
+
+You ask:
+
+"Find the best hotel in Chennai."
+
+Without a proxy:
+
+User
+   │
+   ▼
+Travel Agent
+
+With a User Proxy:
+
+User
+   │
+   ▼
+User Proxy
+   │
+   ▼
+Travel Agent
+   │
+   ▼
+Hotel Recommendation
+
+The User Proxy receives your request and passes it to the appropriate agent.
+
+========
+
+What is RetrieveUserProxy?
+
+In Microsoft AutoGen, RetrieveUserProxyAgent is a special type of User Proxy.
+
+It doesn't just forward your message—it can also retrieve information from documents or a knowledge base before asking the LLM to respond.
+
+This is commonly used in RAG (Retrieval-Augmented Generation) systems.
+
+=======
+
+Example with RAG
+
+Suppose you have a PDF:
+
+Restaurant_Menu.pdf
+
+User asks:
+
+"How much is the Chicken Biryani?"
+
+The workflow is:
+
+User
+   │
+   ▼
+RetrieveUserProxy
+   │
+   ├── Searches the PDF
+   │
+   ▼
+Assistant Agent
+   │
+   ▼
+Answer:
+Chicken Biryani costs ₹250.
+
+The RetrieveUserProxy first finds the relevant information, then the assistant uses it to answer.
+
+=======
+
+
+Why is it called "Retrieve"?
+
+Because it retrieves information from sources such as:
+
+📄 PDF files
+📊 CSV files
+📝 Text documents
+🗄️ Vector databases (FAISS, ChromaDB, Pinecone, etc.)
+🌐 Other knowledge sources
+
+before asking the LLM to generate a response.
+
+=======
+
+
+Two Agents + RetrieveUserProxy
+
+Suppose you have two agents:
+
+Agent 1
+
+Assistant Agent
+
+Answers questions
+Plans tasks
+Writes code
+
+↓
+
+Agent 2
+
+RetrieveUserProxy
+
+Searches documents
+Finds relevant information
+Sends that information to the Assistant Agent
+
+The workflow becomes:
+
+User
+   │
+   ▼
+RetrieveUserProxy
+(Searches documents)
+   │
+   ▼
+Assistant Agent
+(Uses retrieved information)
+   │
+   ▼
+Final Answer
+
+========
+
+Example in Your Restaurant Chatbot
+
+You have:
+
+menu.csv
+faq.csv
+restaurant.csv
+
+User asks:
+
+"What is today's special?"
+
+User
+   │
+   ▼
+RetrieveUserProxy
+(Search menu.csv)
+   │
+   ▼
+Assistant Agent
+(Create a natural language reply)
+   │
+   ▼
+Today's special is Paneer Butter Masala.
+Simple Analogy
+
+Imagine a library:
+
+👤 You ask a question.
+📚 Librarian (RetrieveUserProxy) finds the right book and page.
+👨‍🏫 Teacher (Assistant Agent) reads the information and explains it clearly.
+
+Here:
+
+The librarian is the RetrieveUserProxy.
+The teacher is the Assistant Agent.
+
+========
+
+
+
+
