@@ -1,0 +1,173 @@
+most popular search APIs
+
+used worldwide for web search, AI agents, RAG systems, and application development.
+
+| Search API                                                 | Main Use                                | Free Tier            | Best For              |
+| ---------------------------------------------------------- | --------------------------------------- | -------------------- | --------------------- |
+| **Google Programmable Search**                             | Search websites or custom search engine | ✅ Limited            | Website search        |
+| **Google Custom Search JSON API** *(legacy/transitioning)* | Google web search via JSON              | ⚠️ Limited/legacy    | Existing integrations |
+| **Brave Search API**                                       | General web search                      | ✅ Yes                | AI Agents, RAG        |
+| **Tavily Search API**                                      | AI-optimized web search                 | ✅ Yes                | Agentic AI, RAG       |
+| **Serper API**                                             | Google search results API               | ✅ Yes                | AI applications       |
+| **SerpAPI**                                                | Google, Bing, YouTube, Amazon search    | ✅ Limited            | Search engine data    |
+| **Bing Web Search API**                                    | Bing search                             | ⚠️ Limited           | Enterprise apps       |
+| **DuckDuckGo Search**                                      | Privacy-focused search                  | ✅ Community access   | Open-source projects  |
+| **Exa API**                                                | AI semantic web search                  | ✅ Yes                | LLM applications      |
+| **Perplexity API**                                         | AI-powered search and answers           | ⚠️ Paid              | Research assistants   |
+| **You.com API**                                            | AI search                               | ⚠️ Paid              | AI assistants         |
+| **Metaphor API (legacy name of Exa)**                      | Semantic search                         | ⚠️ Legacy            | AI research           |
+| **Mojeek Search API**                                      | Independent search engine               | ⚠️ Limited           | Privacy projects      |
+| **Yandex Search API**                                      | Russian-language search                 | ⚠️ Limited           | Regional applications |
+| **Yahoo Search APIs**                                      | Search services                         | ❌ Mostly unavailable | Legacy                |
+| **Zenserp API**                                            | Search engine results                   | ✅ Limited            | SEO                   |
+| **DataForSEO SERP API**                                    | Search engine data                      | ⚠️ Paid              | SEO analytics         |
+| **Scale SERP API**                                         | SERP data                               | ⚠️ Paid              | SEO tools             |
+| **Apify Google Search**                                    | Web scraping/search                     | ✅ Limited            | Automation            |
+| **RapidAPI Search APIs**                                   | Marketplace of search APIs              | Varies               | Developers            |
+| **ContextualWeb Search API**                               | Web search                              | ⚠️ Limited           | General search        |
+
+
+=============
+
+
+Search APIs for AI Agents
+
+These are the APIs most commonly used with frameworks like AutoGen, CrewAI, LangGraph, OpenAI Agents SDK, and Microsoft Agent Framework.
+
+| API          | AI Optimized | RAG | Free Tier  |
+| ------------ | ------------ | --- | ---------- |
+| Tavily       | ✅            | ✅   | ✅          |
+| Brave Search | ✅            | ✅   | ✅          |
+| Exa          | ✅            | ✅   | ✅          |
+| Serper       | ✅            | ⚠️  | ✅          |
+| SerpAPI      | ⚠️           | ⚠️  | ✅ Limited  |
+| Bing Search  | ⚠️           | ⚠️  | ⚠️ Limited |
+
+
+==========
+
+Search APIs for SEO
+
+| API        | Purpose                  |
+| ---------- | ------------------------ |
+| SerpAPI    | Google SERP analysis     |
+| Zenserp    | Search rankings          |
+| DataForSEO | SEO analytics            |
+| Scale SERP | Keyword tracking         |
+| Serper     | Search result extraction |
+
+
+=======
+
+
+Search APIs for Shopping
+
+| API                            | Searches                |
+| ------------------------------ | ----------------------- |
+| SerpAPI                        | Amazon, Google Shopping |
+| RapidAPI Shopping APIs         | Products                |
+| Walmart APIs                   | Walmart products        |
+| eBay APIs                      | eBay listings           |
+| Amazon Product Advertising API | Amazon products         |
+
+
+=====
+
+
+Search APIs for Maps & Places
+
+| API                       | Purpose         |
+| ------------------------- | --------------- |
+| Google Places API         | Nearby places   |
+| Google Geocoding API      | Address lookup  |
+| Bing Maps API             | Maps            |
+| OpenStreetMap (Nominatim) | Free maps       |
+| Mapbox Search API         | Location search |
+| HERE Geocoding API        | Places          |
+
+=======
+
+Search APIs for Images
+
+| API                                | Purpose      |
+| ---------------------------------- | ------------ |
+| Google Images (via SERP providers) | Image search |
+| Bing Image Search                  | Images       |
+| Unsplash API                       | Free photos  |
+| Pexels API                         | Free images  |
+| Pixabay API                        | Images       |
+| Flickr API                         | Photo search |
+
+
+======
+
+Search APIs for Videos
+
+| API              | Purpose      |
+| ---------------- | ------------ |
+| YouTube Data API | Video search |
+| Vimeo API        | Videos       |
+| Dailymotion API  | Videos       |
+
+
+=======
+
+Search APIs for Academic Research
+
+| API                  | Purpose            |
+| -------------------- | ------------------ |
+| Semantic Scholar API | Research papers    |
+| Crossref API         | DOI lookup         |
+| arXiv API            | Preprints          |
+| PubMed API           | Medical literature |
+| CORE API             | Open-access papers |
+
+
+========
+
+Search APIs for News
+
+| API            | Purpose        |
+| -------------- | -------------- |
+| NewsAPI        | Latest news    |
+| GNews API      | News           |
+| Mediastack API | News           |
+| NewsData.io    | News search    |
+| Currents API   | Current events |
+
+
+========
+
+Search APIs for Jobs
+
+| API               | Purpose         |
+| ----------------- | --------------- |
+| Adzuna API        | Job listings    |
+| JSearch API       | Jobs            |
+| RapidAPI Job APIs | Employment data |
+
+
+=========
+
+Search APIs for Flights
+
+| API            | Purpose            |
+| -------------- | ------------------ |
+| Amadeus API    | Flight search      |
+| Skyscanner API | Flights            |
+| AviationStack  | Flight information |
+
+
+========
+
+Search APIs for Hotels
+
+| API              | Purpose       |
+| ---------------- | ------------- |
+| Booking.com APIs | Hotels        |
+| Expedia APIs     | Hotels        |
+| Hotelbeds API    | Accommodation |
+
+
+=======
+
