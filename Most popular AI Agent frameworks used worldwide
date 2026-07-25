@@ -1,0 +1,34 @@
+Below is a comparison of the most popular AI Agent frameworks used worldwide. 
+These frameworks help developers build AI agents, multi-agent systems, workflows, RAG applications, and AI automation.
+
+AI Agent Frameworks – Real-Time Uses
+====================================
+
+| Framework                     | Developed By        | Primary Use                                 | Real-Time Example                                            |
+| ----------------------------- | ------------------- | ------------------------------------------- | ------------------------------------------------------------ |
+| **AutoGen**                   | Microsoft           | Multi-agent conversations and collaboration | AI coding assistant with Planner, Coder, and Reviewer agents |
+| **Microsoft Agent Framework** | Microsoft           | Enterprise AI agent orchestration           | HR assistant, IT helpdesk, enterprise workflows              |
+| **CrewAI**                    | CrewAI Inc.         | Role-based AI agent teams                   | Travel planner with Flight, Hotel, and Budget agents         |
+| **LangGraph**                 | LangChain           | Stateful AI workflows using graphs          | Customer support chatbot with memory and approvals           |
+| **LangChain**                 | LangChain           | LLM applications and tool integration       | PDF chatbot, RAG applications                                |
+| **OpenAI Agents SDK**         | OpenAI              | Build AI agents with tools and handoffs     | Personal AI assistant using web search and file tools        |
+| **Semantic Kernel**           | Microsoft           | AI orchestration with plugins and memory    | Business workflow automation                                 |
+| **LlamaIndex**                | LlamaIndex          | RAG and document retrieval                  | Company knowledge-base chatbot                               |
+| **Haystack**                  | deepset             | Search and question answering               | Enterprise document search                                   |
+| **DSPy**                      | Stanford University | Optimizing LLM prompts and pipelines        | AI research and evaluation                                   |
+| **SmolAgents**                | Hugging Face        | Lightweight AI agents                       | Small automation scripts                                     |
+| **PydanticAI**                | Pydantic            | Type-safe AI applications                   | AI-powered business applications                             |
+| **BeeAI Framework**           | IBM                 | Enterprise AI agents                        | Banking and insurance assistants                             |
+| **Flowise AI**                | Flowise             | Visual AI workflow builder                  | No-code AI chatbot creation                                  |
+| **Dify**                      | Dify                | AI application development platform         | Customer support AI platform                                 |
+| **SuperAGI**                  | SuperAGI            | Autonomous AI agents                        | Automated business task execution                            |
+| **MetaGPT**                   | DeepWisdom          | Software development with multiple AI roles | AI software development team                                 |
+| **CAMEL AI**                  | CAMEL-AI            | Cooperative AI agent research               | AI collaboration experiments                                 |
+| **AgentVerse**                | Tsinghua University | Multi-agent simulations                     | Smart city and research simulations                          |
+| **OpenDevin**                 | OpenDevin Community | Autonomous software engineering             | AI software developer                                        |
+
+
+============
+
+
+
