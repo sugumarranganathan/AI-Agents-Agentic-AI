@@ -1,0 +1,141 @@
+AgentOps stands for Agent Operations.
+
+It is a platform used to monitor, debug, and evaluate AI agents while they are running.
+
+Think of it like a dashboard for AI agents.
+
+Instead of watching servers, it watches what AI agents are doing.
+
+Without AgentOps
+User
+   │
+   ▼
+Agent 1
+   │
+   ▼
+Agent 2
+   │
+   ▼
+Result
+
+If something goes wrong, it's difficult to know:
+
+Which agent failed?
+Which prompt caused the issue?
+How long each agent took?
+How many LLM calls were made?
+With AgentOps
+             AgentOps Dashboard
+                    ▲
+                    │
+User → Agent 1 → Agent 2 → Result
+        │           │
+        └───────────┘
+
+AgentOps records what each agent is doing.
+
+What AgentOps can monitor
+✅ Which agent started first
+✅ Which agent finished
+✅ Execution time
+✅ LLM prompts
+✅ LLM responses
+✅ Errors and exceptions
+✅ Token usage
+✅ Cost estimation
+✅ Performance metrics
+
+============
+Real Example
+
+Suppose you build a Restaurant AI Chatbot.
+
+Agent 1
+
+Receives:
+
+"I want a veg pizza."
+
+It searches the menu.
+
+↓
+
+Agent 2
+
+Calculates:
+
+Price
+GST
+Delivery charge
+
+↓
+
+Returns:
+
+Veg Pizza
+
+₹249
+
+Delivery ₹40
+
+Total ₹289
+
+AgentOps records:
+
+Agent 1
+Started
+Completed
+2.1 seconds
+
+Agent 2
+Started
+Completed
+1.0 second
+
+Total Time
+3.1 seconds
+
+Tokens Used
+820
+Why use AgentOps?
+
+Without AgentOps:
+
+❌ You don't know why the agent failed.
+
+With AgentOps:
+
+✅ You can monitor every agent, find errors, measure performance, and improve the system.
+
+Simple analogy
+
+Imagine a restaurant kitchen:
+
+👨‍🍳 Chef 1 prepares the dough.
+👨‍🍳 Chef 2 adds toppings.
+👨‍🍳 Chef 3 bakes the pizza.
+
+The restaurant manager watches everyone, checks timing, and ensures everything runs smoothly.
+
+In an AI system:
+
+🤖 Agent 1 does one task.
+🤖 Agent 2 does another task.
+📊 AgentOps is the manager that monitors all the agents.
+
+Summary
+
+| Term           | Meaning                                                                             |
+| -------------- | ----------------------------------------------------------------------------------- |
+| **AI Agent**   | An autonomous AI program that performs a specific task.                             |
+| **Two Agents** | Two AI agents collaborate, each with its own responsibility.                        |
+| **AgentOps**   | A platform that monitors, tracks, debugs, and evaluates AI agents during execution. |
+
+
+Since you're learning Agentic AI and building TravelGenie-AI with multiple agents, AgentOps is useful for observing how your planner, 
+booking, recommendation, and other agents communicate and perform throughout the workflow.
+
+======
+
+
+
