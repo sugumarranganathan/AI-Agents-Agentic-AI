@@ -1,0 +1,147 @@
+What is Llama?
+
+Llama (Large Language Model Meta AI) is a family of Large Language Models (LLMs) developed by Meta (the company behind Facebook, Instagram, and WhatsApp).
+
+Like ChatGPT is developed by OpenAI, Llama is developed by Meta.
+
+=======
+
+Simple Explanation
+
+Think of an LLM as a very intelligent AI assistant that understands and generates human language.
+
+Examples:
+
+| Company    | AI Model                             |
+| ---------- | ------------------------------------ |
+| OpenAI     | GPT-5.5, GPT-4                       |
+| Meta       | Llama 2, Llama 3, Llama 3.1, Llama 4 |
+| Google     | Gemini                               |
+| Anthropic  | Claude                               |
+| Mistral AI | Mistral                              |
+
+
+=====
+
+
+What can Llama do?
+
+Llama can:
+
+💬 Answer questions
+📝 Write articles
+💻 Generate code
+🌐 Translate languages
+📚 Summarize documents
+🤖 Power AI chatbots
+🧠 Assist AI agents
+
+Example
+
+User:
+
+Write Python code to add two numbers.
+
+Llama:
+
+a = 10
+b = 20
+
+print(a + b)
+
+==============
+
+Different Versions
+
+| Model     | Released | Description                                    |
+| --------- | -------- | ---------------------------------------------- |
+| Llama 1   | 2023     | First version                                  |
+| Llama 2   | 2023     | More powerful and widely adopted               |
+| Llama 3   | 2024     | Improved reasoning and coding                  |
+| Llama 3.1 | 2024     | Better multilingual support and longer context |
+| Llama 4   | 2025     | Newer generation with improved capabilities    |
+
+
+=======
+
+Llama vs ChatGPT
+
+| Feature              | Llama                | ChatGPT              |
+| -------------------- | -------------------- | -------------------- |
+| Developed by         | Meta                 | OpenAI               |
+| Type                 | Large Language Model | Large Language Model |
+| Can answer questions | ✅                    | ✅                    |
+| Can write code       | ✅                    | ✅                    |
+| Can summarize PDFs   | ✅                    | ✅                    |
+| Can power chatbots   | ✅                    | ✅                    |
+
+
+=======
+
+Llama in Agentic AI
+
+Suppose you're building TravelGenie-AI.
+
+User
+   │
+   ▼
+Travel Planner Agent
+   │
+   ▼
+Llama
+   │
+   ▼
+Creates travel itinerary
+
+The agent decides what to do, while Llama provides the intelligence to generate answers, plans, or code.
+
+====
+
+Llama through Groq
+
+You previously used Groq API in some of your projects.
+
+Groq provides fast inference for models like Llama.
+
+The flow looks like this:
+
+Your Chatbot
+      │
+      ▼
+Groq API
+      │
+      ▼
+Llama Model
+      │
+      ▼
+Response
+
+Here:
+
+Groq = the platform that runs the model quickly.
+Llama = the AI model that understands and generates the response.
+
+========
+
+Easy Analogy
+
+Imagine a restaurant:
+
+👤 Customer → asks for food.
+👨‍🍳 Chef (Llama) → cooks the food.
+🍽️ Waiter (Agent) → takes the order, serves the food, and coordinates the process.
+🏢 Restaurant (Groq) → provides the kitchen and equipment to help the chef work efficiently.
+
+=======
+
+| Term         | Meaning                                                              |
+| ------------ | -------------------------------------------------------------------- |
+| **Llama**    | A family of AI language models developed by Meta.                    |
+| **LLM**      | Large Language Model that understands and generates text.            |
+| **Groq**     | A platform that runs models like Llama with very low latency.        |
+| **AI Agent** | A program that uses an LLM like Llama to perform tasks autonomously. |
+
+========
+In short, Llama is the AI "brain", while tools like Groq provide a fast way to run that brain, and AI agents use it to solve real-world tasks.
+=======
+
