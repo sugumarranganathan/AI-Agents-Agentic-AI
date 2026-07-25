@@ -1,0 +1,26 @@
+Best Search APIs for AI Developers
+
+| Rank | API                        | Free Tier  | Recommended For       |
+| ---- | -------------------------- | ---------- | --------------------- |
+| 🥇   | Tavily                     | ✅          | AI Agents, RAG        |
+| 🥈   | Brave Search               | ✅          | General web search    |
+| 🥉   | Exa                        | ✅          | Semantic search       |
+| 4    | Serper                     | ✅          | Google search results |
+| 5    | SerpAPI                    | ✅ Limited  | Multi-search engines  |
+| 6    | Bing Search                | ⚠️ Limited | Enterprise search     |
+| 7    | Google Programmable Search | ✅ Limited  | Custom website search |
+
+=======
+
+Recommendation for Agentic AI
+
+If you're learning AutoGen, CrewAI, LangGraph, or the OpenAI Agents SDK, these four are the most valuable to learn first:
+
+Tavily API – Built specifically for AI agents and Retrieval-Augmented Generation (RAG).
+Brave Search API – A strong general-purpose web search API with a free tier.
+Exa API – Excellent for semantic search and AI-powered retrieval.
+Serper API – Popular for accessing Google search results in AI applications.
+
+These are the APIs you'll encounter most often in modern AI agent tutorials and real-world projects.
+
+=========
