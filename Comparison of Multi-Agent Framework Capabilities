@@ -1,0 +1,37 @@
+Comparison of Multi-Agent Framework Capabilities
+
+Which Frameworks Support These?
+
+| Framework                 | Sequential | Parallel | Group Chat | Hierarchical | Router |
+| ------------------------- | ---------- | -------- | ---------- | ------------ | ------ |
+| AutoGen                   | ✅          | ✅        | ✅          | ✅            | ✅      |
+| CrewAI                    | ✅          | ✅        | ⚠️         | ✅            | ✅      |
+| LangGraph                 | ✅          | ✅        | ✅          | ✅            | ✅      |
+| Microsoft Agent Framework | ✅          | ✅        | ✅          | ✅            | ✅      |
+
+
+===========
+
+For Learning Agentic AI
+
+A good progression is:
+
+✅ Single Agent
+✅ Two-Agent System
+✅ Sequential Workflow
+✅ Parallel Workflow
+✅ Group Chat
+✅ Hierarchical
+✅ Planner–Executor
+✅ Planner–Executor–Reviewer
+✅ Router Pattern
+✅ Reflection & Critic
+✅ Human-in-the-Loop
+✅ Swarm / Blackboard (advanced)
+
+This progression takes you from the simplest coordination pattern to the more advanced designs used in production multi-agent systems.
+
+=========
+
+
+
