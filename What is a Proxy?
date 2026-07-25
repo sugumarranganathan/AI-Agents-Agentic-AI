@@ -195,6 +195,23 @@ Here:
 The librarian is the RetrieveUserProxy.
 The teacher is the Assistant Agent.
 
+
+| Term                  | Meaning                                                                                                                      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Proxy**             | A middleman that acts on behalf of someone else.                                                                             |
+| **User Proxy**        | An AI component that represents the user and communicates with other agents.                                                 |
+| **RetrieveUserProxy** | A User Proxy that also retrieves relevant information from documents or a knowledge base before passing it to another agent. |
+| **Assistant Agent**   | Uses the retrieved information and the LLM to produce the final response.                                                    |
+
+==========
+
+In AutoGen, RetrieveUserProxyAgent is especially useful for RAG applications, where the AI needs to search your own documents
+(such as PDFs, CSV files, or vector databases) before answering the user's question.
+
+=========
+
+
+
 ========
 
 
