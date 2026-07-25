@@ -1,0 +1,21 @@
+Which Framework Should You Learn?
+
+| Goal                 | Recommended Framework     |
+| -------------------- | ------------------------- |
+| Learn Multi-Agent AI | AutoGen                   |
+| Enterprise AI        | Microsoft Agent Framework |
+| AI Teams             | CrewAI                    |
+| Stateful Workflows   | LangGraph                 |
+| RAG Applications     | LlamaIndex + LangChain    |
+| AI Chatbots          | LangChain                 |
+| AI Coding Assistant  | AutoGen                   |
+| AI Travel Planner    | CrewAI / LangGraph        |
+| AI Research          | DSPy                      |
+| No-Code AI Apps      | Flowise / Dify            |
+
+========
+
+These are among the most widely used and actively developed frameworks today. Each has a different focus—some excel at multi-agent orchestration,
+others at RAG, enterprise integration, or visual workflow building. Choosing the right one depends on the type of AI application you want to build.
+
+========
