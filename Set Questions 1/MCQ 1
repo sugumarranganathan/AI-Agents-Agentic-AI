@@ -1,1 +1,107 @@
-s
+1. Which agent type learns from its environment?
+
+A) Reactive Agent
+B) Rule-Based Agent
+C) Learning Agent
+D) Utility Agent
+
+(Answer: C)
+
+2. Which agent reacts fast without deep planning?
+
+A) Deliberative Agent
+B) Learning Agent
+C) Reactive Agent
+D) Utility Agent
+
+(Answer: C)
+
+3. What does a Sub-Agent do in Nested Chat?
+
+A) Ends the chat
+B) Handles a small task
+C) Controls the whole conversation
+D) Deletes messages
+
+(Answer: B)
+
+4. What does the Master Agent do in a Hierarchical model?
+
+A) Runs alone
+B) Monitors and assigns tasks to Sub-Agents
+C) Stays idle
+D) Only stores data
+
+(Answer: B)
+
+5. What is the primary role of a Conversable Agent?
+
+A) To store data
+B) To complete tasks as per user needs
+C) To replace humans fully
+D) To manage databases only
+
+(Answer: B)
+
+6. Which is NOT a real Multi-Agent system type?
+
+A) Sequential Chat
+B) Hierarchical Chat
+C) Random Chat
+D) Nested Chat
+
+(Answer: C)
+
+7. What's a key use of Intent in agents?
+
+A) Stores memory
+B) Defines the next goal
+C) Ends tasks
+D) Deletes conversations
+
+(Answer: B)
+
+8. Multi-Agent Systems allow:
+
+A) One agent to do all work
+B) Many agents to work together
+C) No user interaction
+D) Only offline processing
+
+(Answer: B)
+
+9. Which statement is TRUE for Hierarchical Agent Systems?
+
+A) No structure exists
+B) All agents are equal
+C) Master assigns and controls sub-agents
+D) Agents never communicate
+
+(Answer: C)
+
+10. Which Multi-Agent type suits customer service bots best?
+
+A) Hierarchical Chat
+B) Sequential Chat
+C) Random Chat
+D) Independent Agent
+
+(Answer: A)
+
+11. Which AI model is commonly used for Agentic AI?
+
+A) Large Language Model (LLM)
+B) Support Vector Machine (SVM)
+C) Decision Tree
+D) Naïve Bayes
+
+(Answer: A)
+
+12. What does the ollama pull command do?
+
+A) Deletes models
+B) Downloads models for use
+C) Updates logs
+D) Removes cache
+
+(Answer: B)
