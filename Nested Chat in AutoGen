@@ -1,0 +1,222 @@
+A Nested Chat is an advanced communication pattern in the AutoGen framework where one agent starts another conversation with one or more agents to complete a subtask, then returns the result to the original conversation.
+
+Instead of solving everything itself, an agent delegates a smaller task to another agent (or a group of agents), waits for the result, and continues the main conversation.
+
+| **Feature**             | **Nested Chat**                                                                                                      |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Definition**          | A conversation where an agent initiates another internal conversation with one or more agents to complete a subtask. |
+| **Purpose**             | Breaks complex tasks into smaller, manageable tasks.                                                                 |
+| **Main Responsibility** | Delegates subtasks, collects results, and returns them to the main conversation.                                     |
+| **Communication**       | One agent starts a separate internal conversation with other agents.                                                 |
+| **LLM Usage**           | ✅ Yes, multiple agents can use LLMs during the nested conversation.                                                  |
+| **Workflow**            | Main Chat → Nested Chat → Result → Continue Main Chat.                                                               |
+| **Advantage**           | Improves modularity, collaboration, and task accuracy.                                                               |
+| **Best Use Case**       | Complex workflows such as travel planning, bus booking, document analysis, coding, and research.                     |
+
+
+=============
+
+Real-Time Example: Bus Ticket Booking
+Main Conversation
+
+User:
+
+Book a bus from Chennai to Madurai tomorrow.
+
+Nested Chat
+User
+   │
+   ▼
+Assistant Agent
+   │
+   ├── Starts Nested Chat
+   │
+   ▼
+Search Agent ───► Finds buses
+      │
+      ▼
+Seat Agent ───► Checks seat availability
+      │
+      ▼
+Fare Agent ───► Calculates ticket price
+      │
+      ▼
+Returns result
+   │
+   ▼
+Assistant Agent
+   │
+   ▼
+Replies to User
+
+The user only sees the final answer, while the agents communicate internally to complete the booking.
+
+=======
+
+Simple Analogy
+
+Imagine a restaurant:
+
+A customer orders food from the waiter.
+The waiter talks to the chef.
+The chef asks the assistant chef to prepare the ingredients.
+The assistant chef finishes the task and informs the chef.
+The chef completes the dish and gives it to the waiter.
+The waiter serves the customer.
+
+The customer sees only one conversation with the waiter, but several internal conversations happen in the kitchen. This internal collaboration is similar to a Nested Chat.
+
+====
+
+Summary
+
+| **Normal Chat**                          | **Nested Chat**                                               |
+| ---------------------------------------- | ------------------------------------------------------------- |
+| One conversation between user and agent. | One main conversation with additional internal conversations. |
+| Single agent performs the task.          | Multiple agents collaborate on subtasks.                      |
+| Simpler workflow.                        | Better for complex workflows.                                 |
+| Faster for simple tasks.                 | More accurate and scalable for complex tasks.                 |
+
+=========
+
+Example: Nested Chat in AutoGen
+from autogen import AssistantAgent, UserProxyAgent
+
+# Configure LLM
+llm_config = {
+    "config_list": [
+        {
+            "model": "gpt-4",
+            "api_key": "YOUR_API_KEY"
+        }
+    ]
+}
+
+# Main Assistant
+assistant = AssistantAgent(
+    name="Assistant",
+    llm_config=llm_config,
+)
+
+# Search Agent
+search_agent = AssistantAgent(
+    name="SearchAgent",
+    llm_config=llm_config,
+    system_message="You search available buses."
+)
+
+# Fare Agent
+fare_agent = AssistantAgent(
+    name="FareAgent",
+    llm_config=llm_config,
+    system_message="You calculate ticket fares."
+)
+
+# User Proxy
+user = UserProxyAgent(
+    name="User",
+    code_execution_config=False
+)
+
+# Register Nested Chat
+assistant.register_nested_chats(
+    [
+        {
+            "recipient": search_agent,
+            "message": "Find buses from Chennai to Madurai tomorrow."
+        },
+        {
+            "recipient": fare_agent,
+            "message": "Calculate the fare for the available buses."
+        }
+    ],
+    trigger=user
+)
+
+# Start Main Chat
+user.initiate_chat(
+    assistant,
+    message="Book a bus ticket from Chennai to Madurai tomorrow."
+)
+
+===
+
+How it Works
+
+User
+  │
+  ▼
+Assistant Agent
+  │
+  ├──► Nested Chat 1
+  │      Search Agent
+  │      Finds available buses
+  │
+  ├──► Nested Chat 2
+  │      Fare Agent
+  │      Calculates ticket fare
+  │
+  ▼
+Assistant combines both results
+  │
+  ▼
+Final reply to User
+
+=======
+
+Student Result System
+
+from autogen import AssistantAgent
+
+teacher = AssistantAgent(
+    name="Teacher",
+    llm_config=llm_config
+)
+
+marks_agent = AssistantAgent(
+    name="MarksAgent",
+    llm_config=llm_config,
+    system_message="Calculate total marks."
+)
+
+grade_agent = AssistantAgent(
+    name="GradeAgent",
+    llm_config=llm_config,
+    system_message="Assign grades."
+)
+
+teacher.register_nested_chats(
+    [
+        {
+            "recipient": marks_agent,
+            "message": "Calculate total marks for the student."
+        },
+        {
+            "recipient": grade_agent,
+            "message": "Assign grade based on total marks."
+        }
+    ]
+)
+
+=======
+
+Real-Time Use Cases
+
+| **Project**         | **Main Agent**  | **Nested Agents**                                         |
+| ------------------- | --------------- | --------------------------------------------------------- |
+| Bus Ticket Booking  | Assistant Agent | Search Agent, Seat Agent, Fare Agent, Booking Agent       |
+| Restaurant Ordering | Assistant Agent | Menu Agent, Cart Agent, Payment Agent                     |
+| Hospital System     | Doctor Agent    | Lab Agent, Pharmacy Agent, Billing Agent                  |
+| E-commerce          | Shopping Agent  | Product Search Agent, Recommendation Agent, Payment Agent |
+| Travel Planner      | Travel Agent    | Flight Agent, Hotel Agent, Weather Agent                  |
+
+
+======
+
+Key Idea
+
+In a Nested Chat, the main agent temporarily starts one or more internal conversations with specialized agents to complete subtasks.
+After receiving their responses, it combines the results and sends a single, final response back to the user. 
+This lets complex tasks be broken into smaller, coordinated steps while keeping the user's interaction simple.
+
+=======
