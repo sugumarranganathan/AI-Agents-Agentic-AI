@@ -1,0 +1,83 @@
+Acts as the communication backbone connecting all agents.
+
+| **Feature**                    | **Assistant Agent**                                                                                                                                                                        | **Conversable Agent**                                                                                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Description**                | An AI-powered agent in the AutoGen framework that uses a Large Language Model (LLM) to understand user requests, reason about problems, generate responses, and perform intelligent tasks. | The base communication agent in the AutoGen framework that enables conversations between users, AI agents, and external tools by sending, receiving, and managing messages. |
+| **Primary Purpose**            | Performs intelligent reasoning and task execution.                                                                                                                                         | Manages communication and coordination between agents.                                                                                                                      |
+| **Main Responsibility**        | Answers questions, writes code, summarizes documents, analyses data, and collaborates with other agents.                                                                                   | Sends and receives messages, maintains conversation history, and coordinates interactions among agents.                                                                     |
+| **Uses LLM**                   | ✅ Yes                                                                                                                                                                                      | ✅ Yes (or can be extended for non-LLM agents)                                                                                                                               |
+| **Communication**              | Communicates with users and other agents to complete assigned tasks.                                                                                                                       | Provides the messaging framework that allows agents to communicate with each other.                                                                                         |
+| **Inheritance**                | Inherits from `ConversableAgent`.                                                                                                                                                          | Base class from which `AssistantAgent`, `UserProxyAgent`, and custom agents are derived.                                                                                    |
+| **Role in Multi-Agent System** | Acts as the intelligent problem solver and decision maker.                                                                                                                                 | Acts as the communication backbone connecting all agents.                                                                                                                   |
+| **Real-Time Example**          | Understands a bus booking request, determines the required steps, and generates responses.                                                                                                 | Passes messages between the User, Search Agent, Seat Agent, Payment Agent, and Booking Agent to complete the booking process.                                               |
+| **Best Use Case**              | AI assistants, coding assistants, document analysis, report generation, customer support, and question answering.                                                                          | Multi-agent collaboration, workflow orchestration, agent-to-agent communication, and conversation management.                                                               |
+
+
+=======
+
+| Assistant Agent                              | Conversable Agent                                         |
+| -------------------------------------------- | --------------------------------------------------------- |
+| AI-powered task-solving agent                | Base communication agent                                  |
+| Uses an LLM to reason and generate responses | Manages conversations and message passing                 |
+| Inherits from `ConversableAgent`             | Parent/base class in AutoGen                              |
+| Performs intelligent tasks                   | Coordinates interactions between agents, users, and tools |
+
+
+======
+
+User
+   │
+   ▼
+Conversable Agent
+   │
+   ├──► Assistant Agent
+   │
+   ├──► Search Agent
+   │
+   ├──► Booking Agent
+   │
+   ▼
+Final Response
+
+========
+
+Real-Time Example: Bus Ticket Booking
+
+| Agent          | Type                     | Responsibility                                                   |
+| -------------- | ------------------------ | ---------------------------------------------------------------- |
+| User           | Human                    | Requests a bus ticket                                            |
+| UserProxyAgent | Conversable Agent        | Receives the user's request and coordinates the workflow         |
+| AssistantAgent | AI Agent                 | Understands the travel request and decides what needs to be done |
+| Search Agent   | Conversable/Custom Agent | Searches available buses                                         |
+| Seat Agent     | Conversable/Custom Agent | Checks seat availability                                         |
+| Payment Agent  | Conversable/Custom Agent | Handles payment                                                  |
+| Booking Agent  | Conversable/Custom Agent | Confirms the booking                                             |
+
+
+==========
+
+Work flow
+
+User
+   │
+   ▼
+UserProxyAgent
+   │
+   ▼
+AssistantAgent
+   │
+   ├──► Search Agent
+   │
+   ├──► Seat Agent
+   │
+   ├──► Payment Agent
+   │
+   ▼
+Booking Agent
+   │
+   ▼
+Confirmation to User
+
+========
+
+
