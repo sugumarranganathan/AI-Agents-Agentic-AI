@@ -63,6 +63,8 @@ The delay may be caused by sequential processing, slow API responses, heavy LLM 
 Solution:
 Use asynchronous programming, parallel agent execution, caching, optimized prompts, and efficient language models to reduce response time and improve performance.
 
+=======
+
 Scenario 5
 
 Project:
@@ -76,6 +78,8 @@ A single-agent architecture becomes difficult to scale and maintain as new featu
 
 Solution:
 Implement a Modular Multi-Agent Architecture with specialized Calendar, Email, Reminder, and Weather Agents managed by a Master (Coordinator) Agent.
+
+========
 
 Scenario 6
 
