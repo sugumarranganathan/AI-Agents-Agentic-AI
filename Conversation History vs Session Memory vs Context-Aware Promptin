@@ -1,0 +1,28 @@
+| Feature                     | Meaning                                                      | Example                                               |
+| --------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
+| **Conversation History**    | Stores all previous messages                                 | "Show Chennai news" → "Summarize it"                  |
+| **Session Memory**          | Remembers important information during the current chat      | "My name is Sugumar." → "What is my name?"            |
+| **Context-Aware Prompting** | Uses previous conversation when sending the prompt to the AI | "Translate it" → AI knows "it" means the Chennai news |
+
+
+=============
+
+Conversation History
+
+Conversation History is the record of previous messages exchanged between the user and the AI during a conversation.
+
+Session Memory
+
+Session Memory temporarily stores user information and conversation data during the current chat session.
+
+Context-Aware Prompting
+
+Context-Aware Prompting includes relevant previous conversation in the prompt so the AI can generate accurate and contextually relevant responses.
+
+===============
+
+📜 Conversation History = What we talked about
+🧠 Session Memory = What the AI remembers in this chat
+💬 Context-Aware Prompting = Using that memory to answer correctly
+
+================
