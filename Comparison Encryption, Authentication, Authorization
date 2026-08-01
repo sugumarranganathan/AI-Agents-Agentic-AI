@@ -1,0 +1,18 @@
+| Concept            | Question                   | Example                                 |
+| ------------------ | -------------------------- | --------------------------------------- |
+| **Encryption**     | How is the data protected? | Convert data into secret code           |
+| **Authentication** | Who are you?               | Login with username and password        |
+| **Authorization**  | What can you do?           | Admin can delete users; customer cannot |
+
+
+============
+
+🔒 Encryption = Protect the data
+
+👤 Authentication = Verify the user
+
+🔑 Authorization = Give permissions
+
+
+
+Use encryption to protect sensitive data, authentication to verify the user's identity, and authorization to control what resources or actions the authenticated user is allowed to access.
