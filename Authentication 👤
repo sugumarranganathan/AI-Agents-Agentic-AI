@@ -1,0 +1,27 @@
+uthentication 👤
+
+Definition:
+Authentication means verifying the identity of a user.
+
+It answers the question:
+
+Who are you?
+
+Example
+Username:
+Sugumar
+
+Password:
+********
+
+If correct,
+
+✅ User is authenticated.
+
+Real-life Example
+
+Logging into Gmail using your email and password.
+
+One-Line Answer
+
+Authentication verifies that a user is who they claim to be before granting access.
