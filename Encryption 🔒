@@ -1,0 +1,28 @@
+Encryption 🔒
+
+Definition:
+Encryption means converting readable data into a secret code so that unauthorized people cannot read it.
+
+Example
+
+Without Encryption:
+
+Password:
+123456
+
+Anyone can read it.
+
+With Encryption:
+
+Password:
+A8x#K9Lp$2
+
+Only the system with the correct key can decrypt it.
+
+Real-life Example
+
+Sending money through a banking app uses encryption to protect your account details.
+
+One-Line Answer
+
+Encryption protects sensitive data by converting it into an unreadable format that only authorized users or systems can access.
