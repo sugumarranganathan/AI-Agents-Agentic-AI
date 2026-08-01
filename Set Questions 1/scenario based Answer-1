@@ -111,6 +111,8 @@ The chatbot is not maintaining conversation context or session memory.
 Solution:
 Implement conversation history, session memory, and context-aware prompting so responses are generated based on the current conversation instead of repeating previous answers.
 
+=======
+
 Scenario 8
 
 Project:
@@ -141,6 +143,8 @@ Flight, hotel, and weather information come from different APIs with different r
 Solution:
 Use a Coordinator (Orchestrator) Agent that manages specialized Flight, Hotel, and Weather Agents, combines their outputs, and provides a unified response to the user.
 
+========
+
 Scenario 10
 
 Project:
@@ -153,4 +157,7 @@ Cause:
 A single-agent chatbot cannot efficiently support multiple services, planning, personalization, and external integrations.
 
 Solution:
-Upgrade to a Multi-Agent Architecture with specialized agents for scheduling, email, reminders, knowledge retrieval, and external tools, coordinated by a central Orchestrator Agent with shared memory and task planning capabilities.
+Upgrade to a Multi-Agent Architecture with specialized agents for scheduling, email, reminders, knowledge retrieval, and external tools, 
+coordinated by a central Orchestrator Agent with shared memory and task planning capabilities.
+
+====
