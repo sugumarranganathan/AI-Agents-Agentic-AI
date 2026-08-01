@@ -1,0 +1,27 @@
+Definition
+
+Session Memory means remembering information only during the current chat session.
+
+When the chat ends or the session expires, the memory is usually cleared.
+
+Example
+
+User:
+
+My favorite language is Python.
+
+Later in the same chat:
+
+User:
+
+Which language do I like?
+
+AI:
+
+Python.
+
+The AI remembers it because it is stored in session memory.
+
+Simple Definition
+
+Session Memory stores important information during the current conversation so the AI can answer consistently.
