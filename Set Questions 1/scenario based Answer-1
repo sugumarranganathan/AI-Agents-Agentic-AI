@@ -95,6 +95,8 @@ The agent lacks conversation memory, user profile management, and preference tra
 Solution:
 Add long-term memory, user profiles, and preference storage so the agent can provide personalized and context-aware responses.
 
+======
+
 Scenario 7
 
 Project:
