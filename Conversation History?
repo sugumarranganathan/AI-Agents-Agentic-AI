@@ -1,0 +1,24 @@
+Conversation History
+Definition
+
+Conversation History means saving all previous messages between the user and the chatbot during the conversation.
+
+Example
+
+User:
+
+Show Chennai news.
+
+AI:
+
+Heavy rain is expected in Chennai today.
+
+User:
+
+Summarize it.
+
+The AI looks at the conversation history and knows that "it" refers to the Chennai news.
+
+Simple Definition
+
+Conversation History is the record of all previous messages exchanged between the user and the AI.
