@@ -1,0 +1,40 @@
+Context-Aware Prompting
+----------------------
+
+Definition
+
+Context-Aware Prompting means using previous conversation and current context when creating the prompt sent to the AI model.
+
+Instead of sending only the latest question, the system also sends relevant previous messages.
+
+Example
+
+Conversation:
+
+User:
+Show Chennai news.
+
+AI:
+Heavy rain expected in Chennai.
+
+User:
+Translate it.
+
+The prompt sent to the AI becomes:
+
+Conversation:
+
+User:
+Show Chennai news.
+
+AI:
+Heavy rain expected in Chennai.
+
+User:
+Translate it into Tamil.
+
+The AI understands that "it" refers to the Chennai news.
+
+Simple Definition
+
+Context-Aware Prompting means sending previous conversation context along with the current question so the AI understands what the user is referring to.
