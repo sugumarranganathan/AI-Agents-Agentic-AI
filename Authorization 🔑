@@ -1,0 +1,39 @@
+Authorization 🔑
+
+Definition:
+Authorization means deciding what an authenticated user is allowed to do.
+
+It answers the question:
+
+What are you allowed to access?
+
+Example
+
+Admin
+
+✅ View users
+
+✅ Delete users
+
+✅ Edit settings
+
+Customer
+
+✅ View profile
+
+✅ Update profile
+
+❌ Delete users
+
+Real-life Example
+
+In a bank:
+
+Customer → Can view only their own account.
+Bank Manager → Can view all customer accounts.
+One-Line Answer
+
+Authorization determines the permissions and resources an authenticated user is allowed to access.
+
+====
+
