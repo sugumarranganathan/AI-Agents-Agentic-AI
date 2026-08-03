@@ -1,1 +1,128 @@
 
+Which agent type learns from its environment?
+A) Reactive Agent
+B) Rule-Based Agent
+C) Learning Agent
+D) Utility Agent
+
+(Answer: C)
+
+What is the maximum token limit for GPT-4 Turbo?
+A) 2K tokens
+B) 8K tokens
+C) 128K tokens
+D) 256K tokens
+
+(Answer: C)
+
+What is the primary function of the Transformer architecture in LLMs?
+A) Image classification
+B) Parallelized text processing
+C) Speech recognition
+D) Reinforcement learning
+
+(Answer: B)
+
+Which model uses reinforcement learning from human feedback (RLHF) for training?
+A) ChatGPT
+B) VGG-16
+C) Decision Trees
+D) KNN
+
+(Answer: A)
+
+What is the main advantage of the Gemini AI model over traditional LLMs?
+A) It can process multimodal data (text, images, audio, and video)
+B) It only supports text generation
+C) It is trained purely on structured data
+D) It does not require fine-tuning
+
+(Answer: A)
+
+Which AI model is commonly used for AI-based summarization?
+A) BART
+B) GPT-4
+C) YOLOv5
+D) LLaMA 3
+
+(Answer: A)
+
+What is the primary purpose of text embeddings in NLP models?
+A) Converting text into numerical vectors
+B) Reducing image noise
+C) Storing structured data in databases
+D) Generating HTML content
+
+(Answer: A)
+
+Which of the following AI models specializes in text-to-video generation?
+A) Runway Gen-2
+B) GPT-4
+C) Gemini 1.5
+D) BERT
+
+(Answer: A)
+
+What is the primary difference between GPT-3.5 Turbo and GPT-4?
+A) GPT-4 has better reasoning and accuracy
+B) GPT-3.5 Turbo is more expensive than GPT-4
+C) GPT-3.5 Turbo has higher token limits
+D) GPT-4 supports only text, while GPT-3.5 Turbo supports images too
+
+(Answer: A)
+
+What is the purpose of the "temperature" parameter in text generation models?
+A) Controls the response randomness
+B) Increases model speed
+C) Reduces model latency
+D) Determines the number of layers in the model
+
+(Answer: A)
+
+What does LLM stand for in AI?
+A) Logical Language Model
+B) Large Language Model
+C) Long Latency Machine
+D) Linguistic Learning Mechanism
+
+(Answer: B)
+
+What is the main advantage of using ChatGPT API?
+A) Provides cost-effective access to LLM capabilities
+B) Requires no internet connection
+C) Works only on structured data
+D) Uses traditional rule-based programming
+
+(Answer: A)
+
+Which of the following models supports fine-tuning for domain-specific applications?
+A) GPT-4
+B) LLaMA 3
+C) Gemini 1.5
+D) All of the above
+
+(Answer: D)
+
+Which of the following models is best suited for text generation?
+A) ResNet
+B) GPT-4
+C) K-Means
+D) SVM
+
+(Answer: B)
+
+Which model is optimized for long-context understanding in the Gemini AI series?
+A) Gemini 1.0
+B) Gemini 1.5
+C) GPT-2
+D) BERT
+
+(Answer: B)
+
+Which model powers the ChatGPT API?
+A) BERT
+B) GPT-3.5 Turbo
+C) InceptionNet
+D) YOLO
+
+(Answer: B)
