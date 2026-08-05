@@ -1,0 +1,24 @@
+The number 70 is chosen only for formatting the output. It creates a horizontal separator to make the console output easier to read.
+
+For example:
+
+print("=" * 70)
+print("MARKET AGENT")
+print("=" * 70)
+
+Output:
+
+======================================================================
+MARKET AGENT
+======================================================================
+You can use any number
+
+| Code               | Output                           |
+| ------------------ | -------------------------------- |
+| `print("=" * 10)`  | `==========`                     |
+| `print("=" * 30)`  | `==============================` |
+| `print("=" * 50)`  | 50 `=` characters                |
+| `print("=" * 70)`  | 70 `=` characters                |
+| `print("=" * 100)` | 100 `=` characters               |
+
+
