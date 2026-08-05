@@ -1,0 +1,53 @@
+For Artificial Intelligence (AI), I recommend a 10-page Cheat Sheet. This is enough to cover the complete AI interview syllabus without making each page too crowded.
+
+| **Page**    | **Topic**                             | **Contents**                                                                         |
+| ----------- | ------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Page 1**  | **Introduction to AI**                | What is AI, History, Types of AI, AI vs ML vs DL vs GenAI vs AI Agents vs Agentic AI |
+| **Page 2**  | **Machine Learning Fundamentals**     | Supervised, Unsupervised, Reinforcement Learning, Workflow, Examples                 |
+| **Page 3**  | **Deep Learning**                     | Neural Networks, ANN, CNN, RNN, LSTM, Transformers, Applications                     |
+| **Page 4**  | **Natural Language Processing (NLP)** | Tokenization, Embeddings, POS, NER, Sentiment Analysis, Text Classification          |
+| **Page 5**  | **Large Language Models (LLMs)**      | GPT, Llama, Gemini, Claude, Tokens, Context Window, Prompt Engineering               |
+| **Page 6**  | **Generative AI**                     | Text, Image, Audio, Video Generation, Diffusion Models, RAG, Fine-tuning             |
+| **Page 7**  | **AI Agents & Agentic AI**            | AI Agent Architecture, Memory, Planning, ReAct, Multi-Agent Systems, HITL            |
+| **Page 8**  | **Vector Databases & RAG**            | Embeddings, FAISS, Chroma, Pinecone, Qdrant, Retrieval Pipeline                      |
+| **Page 9**  | **AI Frameworks & Deployment**        | LangChain, LangGraph, CrewAI, AutoGen, FastAPI, Docker, Monitoring                   |
+| **Page 10** | **AI Interview Quick Reference**      | AI Workflow, Popular Models, Algorithms, Metrics, Best Practices, Cheat Tables       |
+
+
+=========
+
+Visual Flow
+Page 1  →  AI Fundamentals
+Page 2  →  Machine Learning
+Page 3  →  Deep Learning
+Page 4  →  NLP
+Page 5  →  LLMs
+Page 6  →  Generative AI
+Page 7  →  AI Agents & Agentic AI
+Page 8  →  Vector DB & RAG
+Page 9  →  Frameworks & Deployment
+Page 10 →  Interview Quick Reference
+Why 10 Pages?
+✅ Easy to print as an A4 booklet.
+✅ Covers the complete AI learning path from beginner to advanced.
+✅ Suitable for interview preparation and quick revision.
+✅ Consistent with your existing 3-page LangChain Cheat Sheet and would pair well with future cheat sheets for LangGraph, CrewAI, and AutoGen.
+
+A complete interview collection could look like this:
+
+Artificial Intelligence Cheat Sheet – 10 Pages
+Python Cheat Sheet – 10 Pages
+Machine Learning Cheat Sheet – 10 Pages
+Deep Learning Cheat Sheet – 8 Pages
+NLP Cheat Sheet – 8 Pages
+Generative AI Cheat Sheet – 8 Pages
+AI Agents & Agentic AI Cheat Sheet – 10 Pages
+LangChain Cheat Sheet – 3 Pages (already started)
+LangGraph Cheat Sheet – 3 Pages
+CrewAI Cheat Sheet – 3 Pages
+AutoGen Cheat Sheet – 3 Pages
+
+This would give you a comprehensive, interview-focused AI reference library.
+
+=====
+
